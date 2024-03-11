@@ -1,0 +1,50 @@
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+}
+h1 {
+    color: black;       
+    text-align: center; 
+    font-size: 150px;
+}
+div{ 
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: auto;
+}
+.tree div > div {
+  
+    margin:1em;
+  }
+  
+  .spouse::before {
+    content:" ";
+    position:absolute;
+    width:auto;
+    height:auto;
+    align-self:center;
+    border-top:2px solid black;
+  }
+  
+  .paternal::after {
+    content:" ";
+    position:absolute;
+    margin-top:1,5em;
+    margin-left:2em;
+    width:auto;
+    height:auto;
+    align-self:center;
+    border-left:2px solid black;
+  }
+  
+  .person {
+    border:5px solid black;
+  }
+  
+  .person {
+    border:5px solid black;
+  }
